@@ -22,7 +22,7 @@ void setup() {
   http.begin(descriptor_url);
 
   // Add headers
-  http.addHeader("X-M2M-Origin", "iiith_guest:iiith_guest");
+  http.addHeader("X-M2M-Origin", "dev_guest:dev_guest");
   http.addHeader("Content-Type", "application/json");
 
   int httpCode = http.GET();
