@@ -12,7 +12,7 @@
 #define CSE_IP      "dev-onem2m.iiit.ac.in"
 #define CSE_PORT    443
 #define HTTPS       false
-#define OM2M_ORGIN  "Tue_20_12_22:Tue_20_12_22"
+#define OM2M_ORGIN  "wdmon@20:gpod@llk4"
 #define OM2M_MN     "/~/in-cse/in-name/"
 #define OM2M_AE     "AE-WM/WM-WD"
 #define OM2M_DATA_CONT  "WM-WD-PL00-00/Data"
