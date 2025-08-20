@@ -18,6 +18,7 @@ def get_epoch_time():
     return int(time.time())
 
 # Function to send data to server
+OM2M_DATA_LBL = ["AE-WM/WM-WD", "WM-WD-PL00-00", "V3.0.00", "WD-PL00-00-V3.0.00"]
 def send_data(temp, rh, i):
     data = f"[{temp}, {rh}]"
     server = "http"
@@ -37,6 +38,7 @@ def send_data(temp, rh, i):
         "m2m:cin": {
             "con": data,
             "rn": f"cin_{i}",
+            "lbl": OM2M_DATA_LBL,
             "cnf": "text"
         }
     }
